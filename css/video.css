@@ -1,0 +1,38 @@
+.home{
+    display: flex;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+}
+
+.thumbnails{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-holder{
+    display: flex;  
+}
+.profile_pic{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.video-author{
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: grey;
+}
+
+.video-stats{
+    font-size: 14px;
+    color: grey;
+}
